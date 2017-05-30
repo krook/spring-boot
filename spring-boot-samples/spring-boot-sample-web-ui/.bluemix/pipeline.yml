@@ -4,7 +4,7 @@ stages:
   inputs:
   - url: https://github.com/krook/spring-boot.git
     type: git
-    branch: 1.0.x
+    branch: master
     dir_name: null
   triggers:
   - type: commit
