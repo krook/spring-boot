@@ -36,7 +36,7 @@ stages:
     script: |
       #!/bin/bash
       ls
-      cf push spring-ui-krook -p spring-boot-sample-web-ui-1.0.3.BUILD-SNAPSHOT.jar
+      cf push spring-ui-krook -p spring-boot-sample-web-ui-1.0.3.BUILD-SNAPSHOT.jar -b java_buildpack
 hooks:
 - enabled: true
   label: null
